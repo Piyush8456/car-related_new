@@ -1,0 +1,42 @@
+.heading {
+    background-color: #004d40;
+    width: full;
+    height: 150px;
+    border-radius: 25px;
+    margin: auto;
+  }
+  ion-content {
+    --background: #ffffff; 
+  }
+  #car-logo{
+    color: #ffffff;
+    margin-left: 85px;
+  }
+  .main-logo{
+  margin-top: 20px;
+  margin-left: 600px;
+  font-size: 4em;
+  }
+  .login-logo{
+    color: black;
+    margin-left: 140px;
+  }
+  ion-input{
+    --box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+   
+  }
+ ion-input::placeholder{
+    color: #004d40;
+}
+.input-item{
+    border:0.5px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    height: 35px;
+  }
+  ion-button{
+    --background: #004d40;
+  }
+  ion-button:hover{
+    --background: #000000;
+  }

@@ -1,0 +1,84 @@
+
+.heading {
+    background-color: #004d40;
+    width: full;
+    height: 150px;
+    border-radius: 25px;
+    margin: auto;
+  }
+  ion-content {
+    --background: #ffffff; /* Set the background color to white */
+  }
+  ion-inputs {
+    background-color: #ffffff;
+    border:2px solid black;
+  }
+  #car-logo{
+    color: #ffffff;
+    margin-left: 85px;
+  }
+  .main-logo{
+  margin-top: 20px;
+  margin-left: 600px;
+  font-size: 4em;
+  }
+  .login-logo{
+    color: black;
+    margin-left: 140px;
+  }
+  ion-checkbox {
+    border: 1px solid #1b5320;
+    --border-radius : 0;
+    margin-right: 50px;
+    font-size: 1em;
+  }
+  .divider {
+    margin: 16px 0;
+    height: 1px;
+    background-color: #ccc;
+  }
+  
+  .social-media-container {
+    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .social-media-label {
+    margin-bottom: 16px;
+  }
+  
+  .social-media-icon {
+    font-size: 32px;
+    margin: 0 8px;
+    color: #3b5998; /* Set the color for Facebook icon */
+  }
+  ul{
+    margin-right: 40px;
+  }
+  li{
+    display: inline;
+    margin-left: 0;
+  }
+  ion-button{
+    --background: #004d40;
+  }
+  .input-item{
+    border:0.5px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 0.3px 3px 1px black;
+    // width: 340px;
+    height: 40px;
+  }
+  .custom-checkbox {
+    transform: scale(2); 
+    margin-right: 10px;
+    color: #ffffff;
+    background-color: #ffffff;
+    border: 2px;
+  }
+  input[type=checkbox] {
+    accent-color: rgb(255, 255, 255);
+  }
